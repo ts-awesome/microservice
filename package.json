@@ -1,0 +1,20 @@
+{
+  "name": "@viatsyshyn/ts-microservice",
+  "version": "0.0.0",
+  "description": "TypeScript Microservice",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "typescript": "^3.5.1"
+  },
+  "peerDependencies": {},
+  "author": "Volodymyr Iatsyshyn <viatsyshyn@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@viatsyshyn/ts-messenger": "^0.2.0"
+  }
+}
