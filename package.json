@@ -1,5 +1,5 @@
 {
-  "name": "@viatsyshyn/ts-microservice",
+  "name": "@ts-awesome/microservice",
   "version": "0.0.0",
   "description": "TypeScript Microservice",
   "main": "dist/index.js",
@@ -9,12 +9,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "typescript": "^3.5.1"
+    "typescript": "^3.9.5"
   },
   "peerDependencies": {},
   "author": "Volodymyr Iatsyshyn <viatsyshyn@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "@viatsyshyn/ts-messenger": "^0.2.0"
+    "@ts-awesome/messenger": "^1.0.0"
   }
 }
