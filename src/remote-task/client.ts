@@ -1,5 +1,5 @@
 import {IMicroTaskClient, Unsubscriber} from "../interfaces";
-import {IMessenger} from "@viatsyshyn/ts-messenger";
+import {IMessenger} from "@ts-awesome/messenger";
 import {Events} from "./consts";
 
 export class RemoteTaskClient<TData=any, TResult=any, TProgress=any>

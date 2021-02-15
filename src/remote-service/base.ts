@@ -1,5 +1,5 @@
 import {IMicroServiceServer, Unsubscriber} from "../interfaces";
-import {IMessenger} from "@viatsyshyn/ts-messenger";
+import {IMessenger} from "@ts-awesome/messenger";
 
 const enum State {
   Initialized = 0,

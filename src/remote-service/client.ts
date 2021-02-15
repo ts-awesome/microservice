@@ -1,4 +1,4 @@
-import {IMessenger} from "@viatsyshyn/ts-messenger";
+import {IMessenger} from "@ts-awesome/messenger";
 import {IMicroServiceClient, Unsubscriber} from "../interfaces";
 
 export class RemoteServiceClient implements IMicroServiceClient {
